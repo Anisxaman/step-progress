@@ -20,7 +20,8 @@ const step1Content = <Pages></Pages>;
   }
     return (
         <div>
-            <StepProgressBar
+          <div >
+             <StepProgressBar 
         startingStep={0}
         subtitleClass="run"
         steps={[
@@ -57,6 +58,8 @@ const step1Content = <Pages></Pages>;
           }
         ]}
       />
+          </div>
+ 
             
         </div>
     );

@@ -9,4 +9,16 @@
 }
 /* 20bfb8#2cclightseagreenhsl(177,71%,43%)rgb(32,191,184) */
 
-
+.radio::after{
+    /* cursor: inherit;
+    position: absolute;
+    opacity: 1;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    margin: 0px;
+    padding: 0px;
+    z-index: 1; */
+    background-color:red;
+}   
