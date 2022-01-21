@@ -84,11 +84,11 @@ const CardPage = () => {
             </div>
             
           <div className='mainn row'>
-                    <div className=" rounded col-6">
+                    <div className=" rounded col-8">
                     <hr/>
                         <div className='my-4'>
-                            <h4 className='ms-4'>Search</h4>
-                                <Search style={{width:"666px"}}  className='border rounded'>
+                            <h4 className='ms-4 my-3'>Search</h4>
+                                <Search style={{width:"853px"}}  className='border rounded'>
                                     <SearchIconWrapper>
                                     <SearchIcon />
                                     </SearchIconWrapper>
@@ -101,11 +101,33 @@ const CardPage = () => {
                         </div>
                       
 
-                        <div className='ms-4' >
+                        <div className=' px-3' >
+                        <div class="form-floating">
+                                    <textarea style={{height:"211px",width:"853px"}} class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" ></textarea>
+
+
+                                    <label for="floatingTextarea2"><h4>Added Cards(s)</h4></label>
+                                    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                             {/* <TextField style={{height:"611px"}}  fullWidth label="fullWidth" id="fullWidth" /> */}
                             
                             
-                            <div className="form-floating mt-5">
+                            {/* <div className="form-floating mt-5">
+
                             <label className='mb-5' for="floatingTextarea2"><h4>Added Cards(s)</h4></label>
 
                            
@@ -114,7 +136,7 @@ const CardPage = () => {
                                     
                                     
 
-                                    </textarea>
+                                    </textarea> */}
 
 
                                     
@@ -124,17 +146,17 @@ const CardPage = () => {
                             
                         
                          
-                    </div>
+                    {/* </div> */}
 
                             </div>
 
                     </div>
 
 
-                        <div style={{height:"367px"}} className='col-6 cardd border mt-3 '>
+                        <div style={{height:"334px"}} className='col-4 cardd border mt-3 '>
                             <div>
-                                <div>
-                                    <h1>Summary</h1>
+                                <div className='py-3 ' style={{backgroundColor:"rgb(249,249,249)"}}>
+                                    <h3>Summary</h3>
 
                                 </div>
                                 <div>
