@@ -1,9 +1,12 @@
 .foo{
-    border: 1px solid  rgb(114, 109, 109);
+    border: 2px solid  #dee1e9;
 }
 
-.foo:hover{
-    border: 0.5px solid rgb(78, 62, 216);
+.foo:focus{
+    border: 2px solid #20bfb8;
     /* background-color: cadetblue; */
 
 }
+/* 20bfb8#2cclightseagreenhsl(177,71%,43%)rgb(32,191,184) */
+
+
