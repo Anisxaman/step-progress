@@ -4,9 +4,10 @@ import "./style.css";
 import StepProgressBar from "react-step-progress";
 // import the stylesheet
 import "react-step-progress/dist/index.css";
+import Pages from './Pages';
 
 const Progress = () => {
-const step1Content = <h1></h1>;
+const step1Content = <Pages></Pages>;
   const step2Content = <h1></h1>;
   const step3Content = <h1></h1>;
 
@@ -21,11 +22,16 @@ const step1Content = <h1></h1>;
         <div>
             <StepProgressBar
         startingStep={0}
+        subtitleClass="run"
         steps={[
           {
+            
             label: "service",
             name: "Service",
             content: step1Content,
+           
+            stepClass:"run"   
+
             
           },
           {
