@@ -1,5 +1,6 @@
 import React from 'react';
 import "./style.css";
+import "./Progress.css"
 
 import StepProgressBar from "react-step-progress";
 // import the stylesheet

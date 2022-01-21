@@ -77,7 +77,7 @@ const CardPage = () => {
 
     return (
         <>
-        <div className='mt-5'>
+        <div className='mt-5 '>
             <div>
                     <h3>Add cards to your submission</h3>
                     <h6>Search for a card below and click the "+" icon, then enter the quantity and value for each card.</h6>
@@ -153,13 +153,17 @@ const CardPage = () => {
                     </div>
 
 
-                        <div style={{height:"334px"}} className='col-4 cardd border mt-3 '>
-                            <div>
-                                <div className='py-3 ' style={{backgroundColor:"rgb(249,249,249)"}}>
+                        <div style={{height:"334px"}} className='col-4 cardd  mt-3'>
+                            
+                            
+                                <div className='p-3  border ' style={{backgroundColor:"rgb(249,249,249)"}}>
                                     <h3>Summary</h3>
 
                                 </div>
-                                <div>
+
+
+                                <div className='border'>
+                                        <div className='p-3' >
                                         <div className='d-flex justify-content-between'>
                                             <div>
                                                     <p>Service Level</p>
@@ -183,17 +187,63 @@ const CardPage = () => {
                                             </div>
 
                                         </div>
+                                        </div>
+                                        <hr style={{width:"90%"}} className=' mx-auto'></hr>
+                                        <div className='p-3'>
+                                        <div className='d-flex justify-content-between'>
+                                            <div>
+                                                    <p>Service Level</p>
 
+                                            </div>
+                                            <div>
+                                                $20/Card
+
+                                            </div>
+
+                                        </div>
+
+                                        <div className='d-flex justify-content-between'>
+                                            <div>
+                                                    <p>EDIT</p>
+
+                                            </div>
+                                            <div>
+                                                $500/Card
+
+                                            </div>
+
+                                        </div>
+                                        </div>
+                                        <hr style={{width:"90%"}} className=' mx-auto'></hr>
+
+                                        <div className='p-3'>
+                                        <div className='d-flex justify-content-between'>
+                                            <div>
+                                                    <p>Service Level</p>
+
+                                            </div>
+                                            <div>
+                                                $20/Card
+
+                                            </div>
+
+                                        </div>
 
                                        
+                                        </div>
+                                        <hr style={{width:"90%"}} className=' mx-auto'></hr>
 
+                                       
                                         
-                                       
-
-                                </div>
+                                                                            
+                                       </div>
+                                
                                
 
-                            </div>
+                            
+
+                           
+                            
 
                         </div>
           </div>
