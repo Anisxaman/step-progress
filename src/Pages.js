@@ -41,9 +41,9 @@ let newArr=[];
                       </div>
                      
                       <div className='d-flex  justify-content-between px-3'>
-                                      <div>
-                                          $20/Card
-                                      </div>
+                      <div >
+                                         <span style={{fontWeight:"bold"}}> $20 / </span><span style={{color:"rgb(123,123,123)"}}>Card</span>
+                            </div>
                             <div style={{lineHeight:"0.3"}}>
                                     <label className="form-check-label" for="flexRadioDefault1">
                                                 <p> Protection up to $500</p>
@@ -61,9 +61,9 @@ let newArr=[];
                       </div>
                      
                       <div className='d-flex  justify-content-between px-3'>
-                                      <div>
-                                          $50/Card
-                                      </div>
+                      <div >
+                                         <span style={{fontWeight:"bold"}}> $50 / </span><span style={{color:"rgb(123,123,123)"}}>Card</span>
+                            </div>
                             <div style={{lineHeight:"0.3"}}>
                                     <label className="form-check-label" for="flexRadioDefault1">
                                                 <p> Protection up to $1000</p>
@@ -81,9 +81,9 @@ let newArr=[];
                       </div>
                      
                       <div className='d-flex  justify-content-between px-3'>
-                                      <div>
-                                          $100/Card
-                                      </div>
+                            <div >
+                                         <span style={{fontWeight:"bold"}}> $100 / </span><span style={{color:"rgb(123,123,123)"}}>Card</span>
+                            </div>
                             <div style={{lineHeight:"0.3"}}>
                                     <label className="form-check-label" for="flexRadioDefault1">
                                                 <p> Protection up to $2500</p>
@@ -101,9 +101,9 @@ let newArr=[];
                       </div>
                      
                       <div className='d-flex  justify-content-between px-3'>
-                                      <div>
-                                          $250/Card
-                                      </div>
+                      <div >
+                                         <span style={{fontWeight:"bold"}}> $250 / </span><span style={{color:"rgb(123,123,123)"}}>Card</span>
+                            </div>
                             <div style={{lineHeight:"0.3"}}>
                                     <label className="form-check-label" for="flexRadioDefault1">
                                                 <p> Protection up to $1000</p>
@@ -121,9 +121,9 @@ let newArr=[];
                       </div>
                      
                       <div className='d-flex  justify-content-between px-3'>
-                                      <div>
-                                          $1000/Card
-                                      </div>
+                      <div >
+                                         <span style={{fontWeight:"bold"}}> $1000 / </span><span style={{color:"rgb(123,123,123)"}}>Card</span>
+                            </div>
                             <div style={{lineHeight:"0.3"}}>
                                     <label className="form-check-label" for="flexRadioDefault1">
                                                 <p> Protection up to $50,000</p>
@@ -141,9 +141,9 @@ let newArr=[];
                       </div>
                      
                       <div className='d-flex  justify-content-between px-3'>
-                                      <div>
-                                          $2000/Card
-                                      </div>
+                      <div >
+                                         <span style={{fontWeight:"bold"}}> $2000 / </span><span style={{color:"rgb(123,123,123)"}}>Card</span>
+                            </div>
                             <div style={{lineHeight:"0.3"}}>
                                     <label className="form-check-label" for="flexRadioDefault1">
                                                 <p> Protection up to $10,000</p>
@@ -161,9 +161,9 @@ let newArr=[];
                       </div>
                      
                       <div className='d-flex  justify-content-between px-3'>
-                                      <div>
-                                          $20/Card
-                                      </div>
+                      <div >
+                                         <span style={{fontWeight:"bold"}}> $20 / </span><span style={{color:"rgb(123,123,123)"}}>Card</span>
+                            </div>
                             <div style={{lineHeight:"0.3"}}>
                                     <label className="form-check-label" for="flexRadioDefault1">
                                                 <p> Protection up to $500</p>

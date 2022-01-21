@@ -5,10 +5,11 @@ import StepProgressBar from "react-step-progress";
 // import the stylesheet
 import "react-step-progress/dist/index.css";
 import Pages from './Pages';
+import CardPage from './Pages/CardPage/CardPage';
 
 const Progress = () => {
 const step1Content = <Pages></Pages>;
-  const step2Content = <h1></h1>;
+  const step2Content = <CardPage></CardPage>;
   const step3Content = <h1></h1>;
 
   function step2Validator() {

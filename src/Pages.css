@@ -21,4 +21,8 @@
     padding: 0px;
     z-index: 1; */
     background-color:red;
-}   
+} 
+
+.form-check-label h6{
+    color:rgb(163, 154, 163);
+}
