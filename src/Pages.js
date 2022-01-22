@@ -1,4 +1,4 @@
-import React,{useState} from 'react';
+import React,{useEffect, useState} from 'react';
 import "./Pages.css"
 
 const Pages = () => {
@@ -8,15 +8,22 @@ let newArr=[];
 
     const getdata=(e)=>{
          const data=e.target.value;
-         setvalue(data);
-        // console.log(arr);
-       newArr.push(data);
+        console.log("data :",data);
+        setvalue(data);//eta remove koreh dile push array kaj korbeh.
+        let sata=data;
+       newArr.push(sata);
         console.log("New arr:",newArr);
 
     }
-    console.log("New arr:",newArr);
+//  add data to local storage---------------->
+useEffect(() => {
+    localStorage.setItem("value",JSON.stringify(value));
+
+ 
+}, [value])
 
 
+console.log("value:",value);
 
     return (
         <div>

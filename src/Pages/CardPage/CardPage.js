@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import "./CardPage.css";
 import { styled, alpha } from '@mui/material/styles';
 import AppBar from '@mui/material/AppBar';
@@ -23,6 +23,25 @@ import NotificationsIcon from '@mui/icons-material/Notifications';
 
 
 const CardPage = () => {
+
+  const [get, setget] = useState("");
+
+  const getLOcakItems=()=>{
+    let list=JSON.parse(localStorage.getItem("value"));
+      setget(list);
+      // console.log("list:",list);
+
+  }
+
+  useEffect(() => {
+    getLOcakItems();
+
+  }, [])
+console.log("get:",get);
+
+
+
+
 
     const Search = styled('div')(({ theme }) => ({
         position: 'relative',
@@ -77,7 +96,7 @@ const CardPage = () => {
 
     return (
         <>
-        <div style={{marginBottom:"300px"}} className='mt-5 '>
+        <div style={{marginBottom:"110px"}} className='mt-5 '>
             <div className='ms-4'>
                     <h2>Add cards to your submission</h2>
                     <h5>Search for a card below and click the "+" icon, then enter the quantity and value for each card.</h5>
@@ -103,7 +122,7 @@ const CardPage = () => {
 
                         <div className=' px-3' >
                         <div class="form-floating">
-                                    <textarea style={{height:"295px",width:"853px"}} class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" ></textarea>
+                                    <textarea style={{height:"265px",width:"853px"}} class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" ></textarea>
 
 
                                     <label for="floatingTextarea2"><h4>Added Cards(s)</h4></label>
@@ -173,7 +192,7 @@ const CardPage = () => {
 
                                             </div>
                                             <div>
-                                                $20/Card
+                                                ${get} / Card
 
                                             </div>
 
@@ -185,7 +204,7 @@ const CardPage = () => {
 
                                             </div>
                                             <div>
-                                                $500 Max Value per Card
+                                                ${parseInt(get)+20000 } Max Value per Card
 
                                             </div>
 
@@ -211,7 +230,7 @@ const CardPage = () => {
 
                                             </div>
                                             <div>
-                                                $500/Card
+                                                ${get}
 
                                             </div>
 
@@ -226,7 +245,7 @@ const CardPage = () => {
 
                                             </div>
                                             <div>
-                                                $20/Card
+                                                $({get} &#215; 0)=& 0
 
                                             </div>
 
@@ -234,7 +253,7 @@ const CardPage = () => {
 
                                        
                                         </div>
-                                        <hr style={{width:"90%"}} className=' mx-auto'></hr>
+                                        {/* <hr style={{width:"90%"}} className=' mx-auto'></hr> */}
 
                                        
                                         
