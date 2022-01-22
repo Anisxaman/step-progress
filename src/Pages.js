@@ -2,12 +2,13 @@ import React,{useState} from 'react';
 import "./Pages.css"
 
 const Pages = () => {
-// const [newArr, setnewArr] = useState([]);
+const [value, setvalue] = useState([]);
 let arr=[];
 let newArr=[];
 
     const getdata=(e)=>{
          const data=e.target.value;
+         setvalue(data);
         // console.log(arr);
        newArr.push(data);
         console.log("New arr:",newArr);
