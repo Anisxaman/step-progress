@@ -78,14 +78,14 @@ const CardPage = () => {
     return (
         <>
         <div style={{marginBottom:"300px"}} className='mt-5 '>
-            <div>
-                    <h3>Add cards to your submission</h3>
-                    <h6>Search for a card below and click the "+" icon, then enter the quantity and value for each card.</h6>
+            <div className='ms-4'>
+                    <h2>Add cards to your submission</h2>
+                    <h5>Search for a card below and click the "+" icon, then enter the quantity and value for each card.</h5>
             </div>
             
           <div className='mainn row mt-5 '>
                     <div className=" rounded col-8">
-                    <hr/>
+                    <hr className='ms-4'></hr>
                         <div className='my-4 mb-5'>
                             <h4 className='ms-4 my-3'>Search</h4>
                                 <Search style={{width:"853px",height:"45px"}}  className='border rounded '>
@@ -107,6 +107,9 @@ const CardPage = () => {
 
 
                                     <label for="floatingTextarea2"><h4>Added Cards(s)</h4></label>
+                                    <div className='font'>
+                                      No cards have been added yet
+                                    </div>
                                     </div>
 
 
@@ -192,7 +195,7 @@ const CardPage = () => {
                                         <div className='p-3'>
                                         <div className='d-flex justify-content-between'>
                                             <div>
-                                                    <p>Number of Cards</p>
+                                                    <p>Number of Cards:</p>
 
                                             </div>
                                             <div>
@@ -204,7 +207,7 @@ const CardPage = () => {
 
                                         <div className='d-flex justify-content-between'>
                                             <div>
-                                                    <p>Price/Card</p>
+                                                    <p>Price/Card:</p>
 
                                             </div>
                                             <div>
@@ -219,7 +222,7 @@ const CardPage = () => {
                                         <div className='p-3'>
                                         <div className='d-flex justify-content-between'>
                                             <div>
-                                                    <p>Service Level Fee</p>
+                                                    <p>Service Level Fee:</p>
 
                                             </div>
                                             <div>
